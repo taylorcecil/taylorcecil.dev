@@ -170,8 +170,14 @@ p {
     display: inline-block;
     width: auto;
   }
+}
 
+@media only screen and (max-width: 500px) {
   h1 {
     font-size: 30px;
+  }
+
+  .fa-file-download {
+    font-size: 80px;
   }
 }
